@@ -2,6 +2,7 @@
     margin: 0px;
     border: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -48,12 +49,51 @@ li:hover {
 
 header {
     padding-top: 50px;
-    height: 60vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0F5F9;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+header section section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #F0F5F9;
+}
+
+img {
+    height: 500px;
+    border-radius: 50%;
+}
+
+h2 {
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
 }
 
 section#experience {
@@ -62,7 +102,7 @@ section#experience {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 60vh;
+    height: 80vh;
 }
 
 section#experience section {
@@ -75,7 +115,7 @@ section#education {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 60vh;
+    height: 80vh;
 }
 
 section#education {
@@ -84,9 +124,37 @@ section#education {
 
 section#interests {
     background-color: #C9D6DF;
-    height: 60vh;
+    height: 80vh;
 }
 
 footer {
     background-color: #52616B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer section section {
+    display: block;
+    text-align: center;
+}
+
+footer section section a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+footer section section a:hover {
+    color: #FFFFFF;
+    transition: 1s;
 }
