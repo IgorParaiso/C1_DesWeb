@@ -103,6 +103,7 @@ section#experience {
     justify-content: space-between;
     align-items: center;
     height: 80vh;
+    padding-top: 50px;
 }
 
 section#experience section {
@@ -116,6 +117,7 @@ section#education {
     justify-content: space-between;
     align-items: center;
     height: 80vh;
+    padding-top: 50px;
 }
 
 section#education {
@@ -125,6 +127,7 @@ section#education {
 section#interests {
     background-color: #C9D6DF;
     height: 80vh;
+    padding-top: 50px;
 }
 
 footer {
