@@ -119,7 +119,7 @@ section#experience section section {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 500px;
+    width: 100%;
     margin: 0px 30px;
 }
 
